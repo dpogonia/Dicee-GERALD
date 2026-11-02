@@ -2,13 +2,15 @@
 
 # Dicee
 
-Two dice. The Roll button throws both at once.
+Two six-sided dice. The Roll button throws both at once.
 
 ![Dicee](DiceeSS.png)
 
 ## What it does
 
-A green screen shows two dice and a logo. Roll gives each die a new face.
+A green screen shows two dice and a logo. Each face is its own image. Roll gives each die a new face.
+
+The model keeps the face image names. The view model picks two at random, and the screen shows them.
 
 ## Course
 
@@ -16,7 +18,7 @@ A sample from [GeraldCO/DiceeSUI](https://github.com/GeraldCO/DiceeSUI). The dic
 
 ## Stack
 
-SwiftUI.
+SwiftUI, MVVM.
 
 ## Run
 
@@ -26,7 +28,7 @@ cd Dicee-SwiftUI
 open DiceeSUI.xcodeproj
 ```
 
-Run the **DiceeSUI** scheme on an iPhone simulator.
+Run the **DiceeSUI** scheme on an iPhone simulator. The deployment target is iOS 17.
 
 ## Author
 
