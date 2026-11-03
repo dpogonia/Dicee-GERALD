@@ -23,8 +23,8 @@ SwiftUI, MVVM.
 ## Run
 
 ```bash
-git clone https://github.com/dpogonia/Dicee-Gerald.git
-cd Dicee-Gerald
+git clone https://github.com/dpogonia/Dicee-GERALD.git
+cd Dicee-GERALD
 open DiceeSUI.xcodeproj
 ```
 
